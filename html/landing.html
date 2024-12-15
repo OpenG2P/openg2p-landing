@@ -6,7 +6,7 @@
     <title>Social Registry</title>
     <link rel="icon" type="image/svg+xml" href="https://openg2p.github.io/project/design-assets/favicon-for-white-bg.svg">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
     <style>
         html, body {
@@ -143,28 +143,39 @@
        .link-square {
             position: absolute; 
             border-radius: 20px;
-            background: #F4C235;
-            left: 123px;
-            top: 90px;
-            width: 288px;
-            height: 125px;
+            background: #FEC401;
+            left: 30px;
+            top: 201px;
+            width: 267px;
+            height: 302px;
+        }
+       .link-icon {
+            position: absolute; 
+            left: 203px;
+            top: 36px;
+            width: 46px;
+            height: 46px;
+        }
+       .link-text-title {
+            position: absolute; 
+            left: 18px;
+            top: 35px;
+            width: 115px;
+            font-weight: 500;
+            font-size: 24px;
+            font-family: 'Roboto Slab';
+            color: #514C4C;
         }
        .link-text {
             position: absolute; 
-            left: 28px;
-            top: 31px;
-            width: 200px;
-            font-weight: 'Regular';
-            font-size: 20px;
-            font-family: 'Inter';
+            left: 18px;
+            top: 120px;
+            width: 232px;
+            height: 114px;
+            font-weight: 300;
+            font-size: 16px;
+            font-family: 'Roboto Slab';
             color: #514C4C;
-        }
-       .icon {
-            position: absolute; 
-            left: 214px;
-            top: 31px;
-            width: 46px;
-            height: 46px;
         }
         .hidden {
         display: none; /* Completely hides the element */
@@ -190,6 +201,21 @@
             <div class="black-container">
                 <div class="black-explore">Let's Explore!</div>
                 <div class="black-explore-text">Select a module to sign in and experience our interactive sandbox.</div>
+                <div class="link-square">
+                    <div class="link-icon"><img src="https://openg2p.github.io/project/design-assets/link-icon.svg"></img></div>
+                    <div class="link-text-title">Social Registry</div>
+                    <div class="link-text">Registry building block of OpenG2P</div>
+                </div>
+                <div class="link-square" style="left: 347px">
+                    <div class="link-icon"><img src="https://openg2p.github.io/project/design-assets/link-icon.svg"></img></div>
+                    <div class="link-text-title">PBMS</div>
+                    <div class="link-text">Program and Beneficiary Management System</div>
+                </div>
+                <div class="link-square" style="left: 664px">
+                    <div class="link-icon"><img src="https://openg2p.github.io/project/design-assets/link-icon.svg"></img></div>
+                    <div class="link-text-title">SPAR</div>
+                    <div class="link-text">Social Payments Account Registry. An ID Mapper building block</div>
+                </div>
             </div>
         </div>
     </div>
