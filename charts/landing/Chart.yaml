@@ -1,0 +1,5 @@
+apiVersion: v2
+name: landing
+description: A Helm chart for installing landing page for OpenG2P sandbox.
+type: application
+version: 0.0.0-develop
