@@ -26,44 +26,16 @@
             position: relative;
             border-bottom: 1px solid #ddd;
             background: #ffffff;
-            height: 99px; 
+            height: 80px; 
             display: flex;
+         }
+        .logo {
+            width: 144px;
+            height: auto;
+            position: absolute;
+            left: 161px;
+            top: 18px;
         }
-        .header-menu-container {
-           position: absolute;
-           width: 38px;
-           height: 25px;
-           position: absolute;
-           display: flex;
-           left: 1111px; 
-           top: 37px;  
-        }
-        .header-menu-line {
-            position: absolute;
-            height: 4px;
-            width: 100%;
-            border: none;
-            border-radius: 2px;
-            background-color: #F07D20;
-         }
-        .header-menu-line2 {
-            position: absolute;
-            height: 4px;
-            width: 100%;
-            border: none;
-            border-radius: 2px;
-            background-color: #D9D9D9;
-            top: 10px;
-         }
-        .header-menu-line3 {
-            position: absolute;
-            height: 4px;
-            width: 100%;
-            border: none;
-            border-radius: 2px;
-            background-color: #F07D20;
-            top: 20px;
-         }
         .brand {
             position: relative;
             background: #FEC401; 
@@ -71,67 +43,65 @@
             display: flex;
         }
         .brand-image-1 {
+            display: flex;
             position: absolute;
-            left: 442px; 
-            top: 30px;  
-            width: 396px;
-            height: 395px;
+            left: 466px; 
+            top: 40px;  
+            width: 311px;
+            height: 312px;
+        }
+        .brand-image-2 {
+            position: absolute;
+            left: 201px; 
+            top: 130px;  
+            width: 234px;
+            height: 130px;
+        }
+        .brand-image-3 {
+            position: absolute;
+            left: 832px; 
+            top: 130px;  
+            width: 247px;
+            height: 128px;
         }
         .brand-welcome {
             position: absolute; 
-            left: 296px; 
-            top: 344px;  
+            left: 312px; 
+            top: 336px;  
             font-family: 'Montserrat'; 
             font-size: 20px;
-            font-weight: Bold;
+            font-weight: 700;
         }
         .brand-openg2p {
             position: absolute;
-            left: 397px; 
-            top: 386px;  
+            left: 393px; 
+            top: 354px;  
             font-family: 'Montserrat'; 
-            font-weight: Bold;
+            font-weight: 700; 
             font-size: 90px;
             color: #FFFFFF;
         }
-        .brand-explore {
-            position: absolute; 
-            left: 774px; 
-            top: 495px;  
-            font-family: 'Montserrat'; 
-            font-weight: Medium;
-            font-size: 25px;
-            color: #000000;
-        }
-
         .brand-interactive {
             position: absolute; 
-            left: 209px; 
-            top: 626px;  
-            max-width: 273px;
-            font-family: 'Roboto Slab'; 
-            font-weight: 300;
-            font-size: 52px;
+            left: 806px; 
+            top: 470px;  
+            max-width: 248px;
+            font-family: 'Montserrat'; 
+            font-weight: 500;
+            font-size: 24px;
             color: #000000;
         }
         .brand-interactive-text {
             position: absolute; 
-            left: 681px; 
-            top: 611px;  
-            max-width: 483px;
+            left: 312px; 
+            top: 540px;  
+            max-width: 656px;
             font-family: 'Montserrat'; 
-            font-weight: 'Regular';
-            font-size: 22px;
+            font-weight: 400; 
+            font-size: 18px;
             color: #1F1F1F;
-        }
-
-        .logo {
-            width: 147px;
-            height: auto;
-            position: absolute;
-            #border-radius: 8px;
-            left: 123px;
-            top: 22px;
+            text-align: center;    
+    
         }
         .black-background {
             position: relative;
@@ -143,8 +113,19 @@
             left: 321px; 
             top: 77px;  
             font-family: 'Roboto Slab'; 
-            font-weight: 'Regular';
+            font-weight: 400;
             font-size: 80px;
+            color: #FFFFFF;
+
+        }
+        .black-explore-text {
+            position: absolute; 
+            left: 263px; 
+            top: 171px;  
+            max-width: 746px;
+            font-family: 'Montserrat'; 
+            font-weight: 'Medium';
+            font-size: 22px;
             color: #FFFFFF;
         }
         .brand2 {
@@ -189,24 +170,19 @@
     <div class="container">
         <div class="header">
             <img src="https://openg2p.github.io/project/design-assets/OpenG2PHorizontalLogoLightBackground.png" class="logo">
-            <div class="header-menu-container">
-                <div class="header-menu-line"></div>
-                <div class="header-menu-line2"></div>
-                <div class="header-menu-line3"></div>
-            </div>
         </div>
         <div class="brand">
             <div class="brand-welcome">Welcome to</div>
-            <div class="brand-image-1">
-                <img src="https://openg2p.github.io/project/design-assets/sandbox-landing-1.png"></img>
-            </div>
-            <div class="brand-openg2p">OpenG2P.</div>
-            <div class="brand-explore">Explore. Learn. Adopt</div>
+            <div class="brand-image-1"><img src="https://openg2p.github.io/project/design-assets/sandbox-landing-1.png"></img></div>
+            <div class="brand-image-2"><img src="https://openg2p.github.io/project/design-assets/brand-image-2.png"></img></div>
+            <div class="brand-image-3"><img src="https://openg2p.github.io/project/design-assets/brand-image-3.png"></img></div>
+            <div class="brand-openg2p">OpenG2P's</div>
             <div class="brand-interactive">interactive sandbox</div>
             <div class="brand-interactive-text">a dynamic platform designed for you to explore the functionalities of our modules and see our products in action. This is your gateway to understanding the full potential of our offerings.</div>
         </div>
         <div class="black-background">
             <div class="black-explore">LET'S EXPLORE</div>
+            <div class="black-explore-text">Select a module to sign in and experience our interactive sandbox.</div>
         </div>
         <div class="brand2">
             <div class="brand2-explore">LET'S EXPLORE!</div>
