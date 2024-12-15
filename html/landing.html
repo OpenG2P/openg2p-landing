@@ -6,7 +6,7 @@
     <title>Social Registry</title>
     <link rel="icon" type="image/svg+xml" href="https://openg2p.github.io/project/design-assets/favicon-for-white-bg.svg">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
     <style>
         html, body {
@@ -39,7 +39,7 @@
         .brand {
             position: relative;
             background: #FEC401; 
-            height: 822px; 
+            height: 652px; 
             display: flex;
         }
         .brand-image-1 {
@@ -84,7 +84,7 @@
         .brand-interactive {
             position: absolute; 
             left: 806px; 
-            top: 470px;  
+            top: 465px;  
             max-width: 248px;
             font-family: 'Montserrat'; 
             font-weight: 500;
@@ -94,7 +94,7 @@
         .brand-interactive-text {
             position: absolute; 
             left: 312px; 
-            top: 540px;  
+            top: 525px;  
             max-width: 656px;
             font-family: 'Montserrat'; 
             font-weight: 400; 
@@ -106,33 +106,39 @@
         .black-background {
             position: relative;
             background: #000000;
-            height: 1021px; 
+            height: 1010px; 
+            display: flex;
+        }
+        .black-container {
+            position: absolute; 
+            width: 960px;
+            height: 896px;
+            left: 160px;
+            top: 52px;
         }
         .black-explore {
             position: absolute; 
-            left: 321px; 
-            top: 77px;  
+            width: 768px;
+            height: 79px;
+            left:96px; 
+            top: 8px;  
             font-family: 'Roboto Slab'; 
-            font-weight: 400;
-            font-size: 80px;
+            font-weight: 500;
+            font-size: 60px;
             color: #FFFFFF;
+            text-align: center;
 
         }
         .black-explore-text {
             position: absolute; 
-            left: 263px; 
-            top: 171px;  
-            max-width: 746px;
+            left: 96px; 
+            top: 112px;  
+            max-width: 768px;
             font-family: 'Montserrat'; 
             font-weight: 'Medium';
             font-size: 22px;
             color: #FFFFFF;
-        }
-        .brand2 {
-            position: relative;
-            background: #FEC401; 
-            height: 800px; 
-            display: flex;
+            text-align: center;
         }
        .link-square {
             position: absolute; 
@@ -181,72 +187,10 @@
             <div class="brand-interactive-text">a dynamic platform designed for you to explore the functionalities of our modules and see our products in action. This is your gateway to understanding the full potential of our offerings.</div>
         </div>
         <div class="black-background">
-            <div class="black-explore">LET'S EXPLORE</div>
-            <div class="black-explore-text">Select a module to sign in and experience our interactive sandbox.</div>
-        </div>
-        <div class="brand2">
-            <div class="brand2-explore">LET'S EXPLORE!</div>
-	    <a href="${SR_ADMIN_URL}" target="_blank">
-                <div class="link-square">
-                    <div class="icon"><img src="https://openg2p.github.io/project/design-assets/link-icon.png"></img></div>
-                    <div class="link-text">Social Registry Admin</div>
-                </div>
-            </a>
-
-	    <a href="${SR_REPORTING_URL}" target="_blank">
-                <div class="link-square" style="left: 496px;">
-                    <div class="icon">
-                        <img src="https://openg2p.github.io/project/design-assets/link-icon.png"></img>
-                    </div>
-                    <div class="link-text">Reporting Dashboard</div>
-                </div>
-            </a>
-
-	    <a href="${SR_MINIO_URL}" target="_blank">
-                <div class="link-square" style="left: 869px;">
-                    <div class="icon">
-                        <img src="https://openg2p.github.io/project/design-assets/link-icon.png"></img>
-                    </div>
-                    <div class="link-text">MinIO<br>Dashboard</div>
-                </div>
-            </a>
-
-	    <a href="${SR_LOGGING_URL}" target="_blank">
-                <div class="link-square" style="top: 240px;">
-                    <div class="icon">
-                        <img src="https://openg2p.github.io/project/design-assets/link-icon.png"></img>
-                    </div>
-                    <div class="link-text">Logging<br>Dashboard</div>
-                </div>
-            </a>
-
-	    <a href="${SR_ODK_URL}" target="_blank">
-                <div class="link-square" style="top: 240px; left: 496px;">
-                    <div class="icon">
-                        <img src="https://openg2p.github.io/project/design-assets/link-icon.png"></img>
-                    </div>
-                    <div class="link-text">ODK<br>Admin</div>
-                </div>
-            </a>
-
-	    <a href="${SR_SUPERSET_URL}" target="_blank">
-                <div class="link-square" style="top: 240px; left: 869px;">
-                    <div class="icon">
-                        <img src="https://openg2p.github.io/project/design-assets/link-icon.png"></img>
-                    </div>
-                    <div class="link-text">Superset<br>Dashboard</div>
-                </div>
-            </a>
-
-	    <a href="${SR_KAFKA_URL}" target="_blank">
-                <div class="link-square" style="top: 390px;">
-                    <div class="icon">
-                        <img src="https://openg2p.github.io/project/design-assets/link-icon.png"></img>
-                    </div>
-                    <div class="link-text">Kafka<br>Admin</div>
-                </div>
-            </a>
-
+            <div class="black-container">
+                <div class="black-explore">Let's Explore!</div>
+                <div class="black-explore-text">Select a module to sign in and experience our interactive sandbox.</div>
+            </div>
         </div>
     </div>
 </body>
