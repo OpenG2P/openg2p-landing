@@ -42,7 +42,7 @@ jobs:
         run: |
           if [[ ! -s charts-list.txt ]]; then
             echo "::warning::No Charts to publish";
-            echo "SKIP=TRUE" >> $GITHUB_ENV
+            echo "SKIP=FALSE" >> $GITHUB_ENV
           else
             for chartpath in charts/*/; do
               if [ -f ${chartpath}Chart.yaml ]; then
