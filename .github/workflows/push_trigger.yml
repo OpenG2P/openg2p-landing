@@ -2,9 +2,8 @@ name: Publish OpenG2P-landing Helm charts
 
 on:
   push:
-    branches-ignore:
+    branches:
       - develop
-      - main
   workflow_dispatch:
     inputs:
       forcePublishCharts:
