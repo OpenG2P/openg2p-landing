@@ -71,7 +71,7 @@ jobs:
             echo "SKIP=TRUE" >> $GITHUB_ENV
           fi
       - name: Upload tar as Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: charts
           path: ./*.tgz
@@ -86,7 +86,7 @@ jobs:
         if: env.SKIP != 'TRUE'
 
       - name: Download tar from Artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: charts
           path: ./
