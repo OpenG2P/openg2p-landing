@@ -1,9 +1,9 @@
 apiVersion: v2
 name: landing
-description: A Helm chart for installing landing page for OpenG2P sandbox.
+description: Helm chart for OpenG2P sandbox landing page.
 type: application
 version: 0.0.0-develop
 icon: https://openg2p.github.io/openg2p-helm/openg2p-logo.png
 annotations:
-  catalog.cattle.io/display-name: "OpenG2P Sandbox Landing Page"
+  catalog.cattle.io/display-name: "Landing Page"
   openg2p.org/add-to-rancher: ""
