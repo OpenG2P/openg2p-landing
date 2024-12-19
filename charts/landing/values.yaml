@@ -1,4 +1,4 @@
-hostname: devops.openg2p.org
+hostname: sandbox.openg2p.org
 
 replicaCount: 1
 
@@ -12,10 +12,10 @@ nameOverride: ""
 fullnameOverride: ""
 
 envVars: 
-  SR_URL: "https://socialregistry.devops.openg2p.org"
-  PBMS_URL: "https://pbms.explore.openg2p.org"
-  SPAR_URL: "https://spar.explore.openg2p.org"
-  BRIDGE_URL: "https://bridge.explore.openg2p.org"
+  SR_URL: "https://socialregistry.sandbox.openg2p.org"
+  PBMS_URL: "https://pbms.sandbox.openg2p.org"
+  SPAR_URL: "https://spar.sandbox.openg2p.org"
+  BRIDGE_URL: "https://bridge.sandbox.openg2p.org"
 
 envVarsFrom: {}
 
