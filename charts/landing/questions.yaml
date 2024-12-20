@@ -1,32 +1,31 @@
 questions:
-
 - variable: hostname
   description: Hostname for the environment, e.g. explore.openg2p.org
   type: string
   label: Hostname
-  group: Settings
+  group: General Settings
 
 - variable: envVars.SR_URL
   description: URL for Social Registry, e.g https://socialregistry.explore.openg2p.org
   type: string
   label: Social Registry Hostname
-  group: Settings
+  group: General Settings
 
 - variable: envVars.PBMS_URL
   description: URL for PBMS
   type: string
   label: PBMS Hostname
-  group: Settings
+  group: General Settings
 
 - variable: envVars.SPAR_URL
   description: URL for SPAR
   type: string
   label: SPAR Hostname
-  group: Settings
+  group: General Settings
 
 - variable: envVars.BRIDGE_URL
   description: URL for G2P Bridge 
   type: string
   label: G2P Bridge Hostname
-  group: Settings
+  group: General Settings
 
